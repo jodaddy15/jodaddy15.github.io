@@ -1,0 +1,58 @@
+body,
+html {
+  height: 100%;
+  width: 100%; 
+}
+
+.container-fluid {
+  
+}
+
+header {
+	/*style*/
+	text-transform: uppercase;
+	color: whitesmoke;
+	font-size: 2rem;
+	font-family: 'Cinzel', serif;
+	font-weight: bolder;
+	/*layout*/
+	background-image: url("header.jpg");
+	background-size: cover;
+	background-position: center;
+	height: 100%;
+
+}
+
+h1 {
+	margin-bottom: 200px;
+}
+
+hr {
+  max-width: 65px;
+  border-width: 3px;
+  border-color: #F05F44;
+}
+
+/*hr:hover {
+	border-color: black;
+}*/
+
+
+.btn {
+	/*style*/
+  background-color: orangered;
+  border: 1px solid black;
+  text-transform: uppercase;
+  height: 3rem;
+  width: 11rem;
+  border-radius: 25px;
+  /*layout*/
+  /*position: relative;
+  top: 41rem;
+  left: 46rem;*/
+}
+
+.btn:hover {
+  background-color: black;
+  border: 1px solid orangered;
+}
